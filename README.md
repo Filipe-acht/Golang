@@ -53,3 +53,16 @@
 - Tipos de dados compostos: são tipos compostos de tipos primitivos, e criados pelo usuário
     - slice, array, struct, map
 - O ato de definir, criar, estruturar tipos compostos chama-se composição. Veremos muito disso futuramente.
+
+=========================================================================================================================
+
+- Declaração vs. inicialização vs. atribuição de valor. Variáveis: caixas postais.
+- Valor zero: é o valor que se encontra numa variável antes de ser inicializada por um usuário
+- Os zeros:
+    - ints: 0
+    - floats: 0.0
+    - booleans: false
+    - strings: ""
+    - pointers, functions, interfaces, slices, channels, maps: nil
+- Use := sempre que possível.
+- Use var para package-level scope.
